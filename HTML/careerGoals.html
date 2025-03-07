@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boboto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="custom-nav">
+            <div class="nav-branding">
+                <a href="index.html" rel="home">
+                    <img class="nav-logo main-logo" src="../Sources/BobotoLogo.jpeg" alt="Boboto Main">
+                    <h1 class="headLogo">Boboto</h1>
+                </a>
+            </div>
+        
+            <div class="nav-menu">
+                <ul class="menu">
+                    <li><a href="profile.html">My Profile Dashboard</a></li>
+                    <li><a href="chatbot.html">Chatbot Interface</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                    <li><a href="help.html">Help</a></li>
+                    <li><a href="admin.html">Admin</a></li>
+                    <div class="registration">
+                        <div class="Login"><a href="HTML/login.html"></a></div>
+                        <div class="Signup"><a href="HTML/signup.html"></a></div>
+                    </div>
+                </ul>
+            </div>
+        </nav> 
+    </header>
+    <main>
+        <h1>Career Goals</h1>
+        <p>Define and track your career aspirations and future objectives.</p>
+        
+        <h2>Your Career Goals:</h2>
+        <ul>
+            <li><strong>Short-Term Goal:</strong> Secure an entry-level software engineering job</li>
+            <li><strong>Long-Term Goal:</strong> Become a senior AI engineer</li>
+            <li><strong>Skills to Develop:</strong> Machine Learning, Data Structures, Cloud Computing</li>
+        </ul>
+        
+        <h3>Update Your Career Goals:</h3>
+        <form id="careerGoalsForm">
+            <label for="newShortTermGoal">Short-Term Goal: </label>
+            <input type="text" id="newShortTermGoal" required><br><br>
+            
+            <label for="newLongTermGoal">Long-Term Goal: </label>
+            <input type="text" id="newLongTermGoal" required><br><br>
+            
+            <label for="newSkillsToDevelop">Skills to Develop: </label>
+            <input type="text" id="newSkillsToDevelop" required><br><br>
+            
+            <button type="submit">Save Changes</button>
+        </form>
+        
+        
+        <a href="profile.html">Back to Profile Dashboard</a>
+    </main>
+</body>
+</html>
